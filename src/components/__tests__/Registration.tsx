@@ -80,13 +80,13 @@ describe('Registration Page', () => {
     userEvent.type(screen.getByPlaceholderText(/User Name/i), 'test name');
     userEvent.type(screen.getByPlaceholderText(/Email/i), 'test email');
     userEvent.click(
-      screen.getByRole('textbox', {
+      screen.getByRole('combobox', {
         name: /designation/i
       })
     );
     userEvent.click(screen.getByRole('option', { name: 'Vice President' }));
     userEvent.click(
-      screen.getByRole('textbox', {
+      screen.getByRole('combobox', {
         name: /manager/i
       })
     );

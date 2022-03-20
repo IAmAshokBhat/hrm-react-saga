@@ -53,7 +53,7 @@ exports[`Registration Page should render and match snapshot 1`] = `
                   class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
                 >
                   <legend
-                    class="css-173wfxe"
+                    class="css-1ftyaf0"
                   >
                     <span>
                       User Name
@@ -98,7 +98,7 @@ exports[`Registration Page should render and match snapshot 1`] = `
                   class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
                 >
                   <legend
-                    class="css-173wfxe"
+                    class="css-1ftyaf0"
                   >
                     <span>
                       Email
@@ -116,9 +116,7 @@ exports[`Registration Page should render and match snapshot 1`] = `
             class="MuiFormControl-root css-q8hpuo-MuiFormControl-root"
           >
             <div
-              aria-expanded="false"
               class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-16awh2u-MuiAutocomplete-root"
-              role="combobox"
             >
               <div
                 class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
@@ -136,12 +134,14 @@ exports[`Registration Page should render and match snapshot 1`] = `
                 >
                   <input
                     aria-autocomplete="list"
+                    aria-expanded="false"
                     aria-invalid="false"
                     autocapitalize="none"
                     autocomplete="off"
                     class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
                     id="leave-type"
                     placeholder="Designation"
+                    role="combobox"
                     spellcheck="false"
                     type="text"
                     value=""
@@ -177,7 +177,7 @@ exports[`Registration Page should render and match snapshot 1`] = `
                     class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
                   >
                     <legend
-                      class="css-173wfxe"
+                      class="css-1ftyaf0"
                     >
                       <span>
                         Designation
@@ -196,9 +196,7 @@ exports[`Registration Page should render and match snapshot 1`] = `
             class="MuiFormControl-root css-q8hpuo-MuiFormControl-root"
           >
             <div
-              aria-expanded="false"
               class="MuiAutocomplete-root MuiAutocomplete-hasPopupIcon css-16awh2u-MuiAutocomplete-root"
-              role="combobox"
             >
               <div
                 class="MuiFormControl-root MuiFormControl-fullWidth MuiTextField-root css-wb57ya-MuiFormControl-root-MuiTextField-root"
@@ -216,12 +214,14 @@ exports[`Registration Page should render and match snapshot 1`] = `
                 >
                   <input
                     aria-autocomplete="list"
+                    aria-expanded="false"
                     aria-invalid="false"
                     autocapitalize="none"
                     autocomplete="off"
                     class="MuiOutlinedInput-input MuiInputBase-input MuiInputBase-inputAdornedEnd MuiAutocomplete-input MuiAutocomplete-inputFocused css-nxo287-MuiInputBase-input-MuiOutlinedInput-input"
                     id="manager"
                     placeholder="Manager"
+                    role="combobox"
                     spellcheck="false"
                     type="text"
                     value=""
@@ -257,7 +257,7 @@ exports[`Registration Page should render and match snapshot 1`] = `
                     class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
                   >
                     <legend
-                      class="css-173wfxe"
+                      class="css-1ftyaf0"
                     >
                       <span>
                         Manager
@@ -304,7 +304,7 @@ exports[`Registration Page should render and match snapshot 1`] = `
                   class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
                 >
                   <legend
-                    class="css-173wfxe"
+                    class="css-1ftyaf0"
                   >
                     <span>
                       Password
@@ -349,7 +349,7 @@ exports[`Registration Page should render and match snapshot 1`] = `
                   class="MuiOutlinedInput-notchedOutline css-1d3z3hw-MuiOutlinedInput-notchedOutline"
                 >
                   <legend
-                    class="css-173wfxe"
+                    class="css-1ftyaf0"
                   >
                     <span>
                       Confirm Password

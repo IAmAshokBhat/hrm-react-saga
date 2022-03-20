@@ -63,7 +63,7 @@ describe('Apply Leave component', () => {
 
     expect(addBtn).toBeDisabled();
 
-    userEvent.click(screen.getByRole('textbox', { name: /leave type/i }));
+    userEvent.click(screen.getByRole('combobox', { name: /leave type/i }));
 
     userEvent.click(screen.getByText(/Earned Leave/i));
 
